@@ -1,0 +1,28 @@
+import React from 'react';
+import NavBar from './components/NavBar'
+import styled from '@emotion/styled'
+
+const HeaderContainer = styled.div`
+position: fixed
+`;
+
+function App() {
+  return (
+    <HeaderContainer>
+      <NavBar/>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+    </HeaderContainer>
+  );
+}
+
+export default App;
