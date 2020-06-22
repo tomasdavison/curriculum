@@ -48,6 +48,7 @@ const Ul = styled.ul`
         padding-top: 20px;
         width: 100%;
         transition: transform 0.3s ease-in-out;
+        z-index:19;
 
         li {
             color: black;

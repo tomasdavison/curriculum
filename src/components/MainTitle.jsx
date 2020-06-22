@@ -26,6 +26,10 @@ const MainContainer = styled.div`
             transform: translate(0,-5px);
         }
 
+        @media(max-width: 768px){ 
+            width: 60%;
+        }
+
     }
 
     h1 {
@@ -37,7 +41,7 @@ const MainContainer = styled.div`
         animation: 2s ease-out 0s 1 slideInFromBottom;
         
         @media(max-width: 768px){ 
-            font-size: 35px;
+            font-size: 40px;
         }
 
         @keyframes slideInFromBottom {
@@ -58,7 +62,7 @@ const MainContainer = styled.div`
         line-height:10px;
 
         @media(max-width: 768px){
-            font-size: 20px;
+            font-size: 22px;
         }
     }
 `;
