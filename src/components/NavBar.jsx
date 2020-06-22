@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import Burger from './Burger';
 
 const Nav = styled.nav`
-    background: white;
+    background: none;
     padding: 0 5px;
     height:75px;
     position: float;

@@ -37,8 +37,9 @@ const Ul = styled.ul`
 
     @media(max-width: 768px){
         display: ${({open}) => open? '' : 'none'};
-        flex-flow: column nowrap;
-        background-color: #E0E0E0;
+        flex-flow: column nowrap;background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 39%, rgba(212,212,212,1) 100%);
+        border-bottom: 2px solid #E0E0E0;
         position: absolute;
         transform: ${({open}) => open? 'translateY(0)' : 'translateY(20%)'};
         top: 50px;
@@ -46,9 +47,6 @@ const Ul = styled.ul`
         padding-bottom: 20px;
         padding-top: 20px;
         width: 100%;
-        -webkit-box-shadow: 5px 5px 32px 0px rgba(161,161,161,1);
-        -moz-box-shadow: 5px 5px 32px 0px rgba(161,161,161,1);
-        box-shadow: 5px 5px 32px 0px rgba(161,161,161,1);
         transition: transform 0.3s ease-in-out;
 
         li {
