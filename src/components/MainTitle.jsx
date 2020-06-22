@@ -5,6 +5,13 @@ import styled from '@emotion/styled'
 const MainContainer = styled.div`
     height: 90vh;
 
+    .header-container {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-60%);
+        -ms-transform: translateY(-60%);
+        transform: translateY(-60%);
+    }
 
     img {
         border-radius: 50%;
@@ -13,6 +20,11 @@ const MainContainer = styled.div`
         margin-left: auto;
         margin-right: auto;
         width: 30%;
+        transition: all .3s ease-out;
+
+        &:hover {
+            transform: translate(0,-5px);
+        }
 
     }
 
@@ -22,9 +34,19 @@ const MainContainer = styled.div`
         font-weight: normal;
         text-align: center;
         line-height:10px;
+        animation: 2s ease-out 0s 1 slideInFromBottom;
         
-        @media(max-width: 768px){
+        @media(max-width: 768px){ 
             font-size: 35px;
+        }
+
+        @keyframes slideInFromBottom {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
         }
     }
 
@@ -44,9 +66,11 @@ const MainContainer = styled.div`
 const MainTitle = () => {
     return (
         <MainContainer>
-            <img src={require('../images/tdavison.png')} alt="tdavison"/>
-            <h1>Davison Tomás</h1>
-            <h3>Software Engineer</h3>
+            <div className="header-container">
+                <img src={require('../images/tdavison.png')} alt="tdavison"/>
+                <h1>Davison Tomás</h1>
+                <h3>Software Engineer</h3>
+            </div>
         </MainContainer>
     )
 }
