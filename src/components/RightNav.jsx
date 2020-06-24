@@ -18,7 +18,6 @@ const Ul = styled.ul`
         color: white;
         text-shadow: 0px 0px 1px #FFFFFF;
 
-
         &:hover {
             cursor: pointer;
         }
@@ -37,6 +36,8 @@ const Ul = styled.ul`
             transition: width .3s;
         }
     }
+
+
 
     @media(max-width: 768px){
         display: ${({open}) => open? '' : 'none'};
@@ -78,6 +79,14 @@ const Ul = styled.ul`
                 width: 0px;
             }
         }
+    }
+
+    @media only screen 
+    and (min-width: 1024px) 
+    and (max-height: 1366px)
+    and (-webkit-min-device-pixel-ratio: 1.5){
+        top: 30px;
+        left: 54%;
     }
 `;
 

@@ -12,6 +12,7 @@ const HeaderContainer = styled.div`
   background-position: center;
   width: 100%;
   height: 140vh;
+
 `;
 
 const BodyContainer = styled.div`

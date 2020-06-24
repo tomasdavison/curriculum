@@ -7,7 +7,7 @@ const MainContainer = styled.div`
 
     .header-container {
         position: relative;
-        top: 50%;
+        top: 45%;
         -webkit-transform: translateY(-60%);
         -ms-transform: translateY(-60%);
         transform: translateY(-60%);
@@ -19,7 +19,7 @@ const MainContainer = styled.div`
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 25%;
         transition: all .3s ease-out;
 
         &:hover {
@@ -27,9 +27,15 @@ const MainContainer = styled.div`
         }
 
         @media(max-width: 768px){ 
-            width: 60%;
+            width: 250px;
         }
 
+        @media only screen 
+        and (min-width: 1024px) 
+        and (max-height: 1366px)
+        and (-webkit-min-device-pixel-ratio: 1.5){
+            width: 400px;
+        }
     }
 
     h1 {
