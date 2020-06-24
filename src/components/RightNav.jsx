@@ -10,11 +10,12 @@ const Ul = styled.ul`
 
     li {
         font-family: Cabin, "Open Sans", sans-serif;
-        font-size: 20px;
+        font-size: 21px;
         font-weight: normal;
         padding-right: 20px;
         display: inline-block;
-        color: black;
+        color: white;
+        text-shadow: 0px 0px 1px #FFFFFF;
 
         &:hover {
             cursor: pointer;
@@ -25,7 +26,7 @@ const Ul = styled.ul`
             display: block;
             width: 0;
             height: 5px;
-            background: red;
+            background: #FF9300;
             transition: width .3s;
         }
 
@@ -51,7 +52,7 @@ const Ul = styled.ul`
         z-index:19;
 
         li {
-            color: black;
+            color: white;
             text-align:center;
 
             &:hover {

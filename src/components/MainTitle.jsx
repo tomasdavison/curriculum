@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 
 
 const MainContainer = styled.div`
-    height: 90vh;
+    height: 95vh;
 
     .header-container {
         position: relative;
@@ -34,10 +34,10 @@ const MainContainer = styled.div`
 
     h1 {
         font-family: Cabin, "Open Sans", sans-serif;
+        color: white;
         font-size: 65px;
         font-weight: normal;
         text-align: center;
-        line-height:10px;
         animation: 2s ease-out 0s 1 slideInFromBottom;
         
         @media(max-width: 768px){ 
@@ -46,7 +46,7 @@ const MainContainer = styled.div`
 
         @keyframes slideInFromBottom {
             0% {
-                transform: translateY(-100%);
+                transform: translateY(-50%);
             }
             100% {
                 transform: translateY(0);
@@ -59,7 +59,8 @@ const MainContainer = styled.div`
         font-size: 35px;
         font-weight: normal;
         text-align: center;
-        line-height:10px;
+        color: white;
+
 
         @media(max-width: 768px){
             font-size: 22px;
