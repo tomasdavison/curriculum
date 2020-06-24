@@ -5,8 +5,9 @@ const Ul = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    margin-right: 40px;
-    margin-top: 25px;
+    position: absolute;
+    top: 2%;
+    left: 70%;
 
     li {
         font-family: Cabin, "Open Sans", sans-serif;
