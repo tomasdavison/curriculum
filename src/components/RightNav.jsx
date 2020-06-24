@@ -17,6 +17,7 @@ const Ul = styled.ul`
         color: white;
         text-shadow: 0px 0px 1px #FFFFFF;
 
+
         &:hover {
             cursor: pointer;
         }
@@ -39,17 +40,24 @@ const Ul = styled.ul`
     @media(max-width: 768px){
         display: ${({open}) => open? '' : 'none'};
         flex-flow: column nowrap;background: rgb(255,255,255);
-        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 39%, rgba(212,212,212,1) 100%);
-        border-bottom: 2px solid #E0E0E0;
-        position: absolute;
-        transform: ${({open}) => open? 'translateY(0)' : 'translateY(20%)'};
-        top: 50px;
+        background: none;
+        position: fixed;
+        top: -10px;
         right: -50px;
         padding-bottom: 20px;
         padding-top: 20px;
         width: 100%;
-        transition: transform 0.3s ease-in-out;
         z-index:19;
+        animation: 0.5s ease-out 0s 1 slideInFromBottom;
+
+        @keyframes slideInFromBottom {
+            0% {
+                transform: translateY(-50%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
 
         li {
             color: white;
