@@ -5,9 +5,9 @@ const Ul = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    position: absolute;
-    top: 2%;
-    left: 70%;
+    position: relative;
+    top: 30px;
+    left: 75%;
 
     li {
         font-family: Cabin, "Open Sans", sans-serif;
@@ -43,8 +43,8 @@ const Ul = styled.ul`
         flex-flow: column nowrap;background: rgb(255,255,255);
         background: none;
         position: fixed;
-        top: -10px;
-        right: -50px;
+        top: 10px;
+        left: 10px;
         padding-bottom: 20px;
         padding-top: 20px;
         width: 100%;
