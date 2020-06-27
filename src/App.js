@@ -5,6 +5,7 @@ import TopBackground from './images/top_background.png'
 
 import NavBar from './components/NavBar';
 import MainTitle from './components/MainTitle'
+import AboutMe from './components/AboutMe'
 
 const HeaderContainer = styled.div`
   position: relative;
@@ -17,7 +18,6 @@ const HeaderContainer = styled.div`
 
 const BodyContainer = styled.div`
   position: relative;
-  border: 1px solid red;
   height: auto;
   top: -200px;
 
@@ -40,20 +40,7 @@ function App() {
         <MainTitle/>
       </HeaderContainer>
       <BodyContainer>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit massa quam, torquent nulla a fermentum praesent quisque tortor duis, orci accumsan lectus morbi penatibus venenatis id himenaeos. Potenti dapibus diam a orci erat cubilia blandit taciti, nibh habitasse tempus libero praesent donec nisi, ultrices pulvinar platea penatibus dignissim rhoncus id. Ante curae arcu facilisi pellentesque sociosqu ut, auctor massa aliquam dui ad mollis, habitasse luctus mattis at phasellus.</p>
+        <AboutMe/>
       </BodyContainer>
       <FootContainer>
         <p>Hola</p>
