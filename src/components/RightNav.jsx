@@ -41,9 +41,10 @@ const Ul = styled.ul`
 
 
 
-    @media(max-width: 768px){
+    @media only screen 
+    and (max-width: 768px) {
         display: ${({open}) => open? '' : 'none'};
-        flex-flow: column nowrap;background: rgb(255,255,255);
+        flex-flow: column nowrap;
         background: none;
         position: fixed;
         top: 10px;
@@ -75,7 +76,6 @@ const Ul = styled.ul`
             
             &::after{
                 content: '';
-                width: 0;
             }
 
             &:hover:after{

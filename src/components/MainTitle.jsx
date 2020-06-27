@@ -24,7 +24,7 @@ const MainContainer = styled.div`
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 25%;
+        width: 20%;
         transition: all .3s ease-out;
 
         &:hover {
