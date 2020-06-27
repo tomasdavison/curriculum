@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
-
+import { Twitter, LinkedIn, GitHub} from '@material-ui/icons';
+import { IconButton } from '@material-ui/core';
 
 const MainContainer = styled.div`
     height: 95vh;
@@ -11,6 +12,10 @@ const MainContainer = styled.div`
         -webkit-transform: translateY(-60%);
         -ms-transform: translateY(-60%);
         transform: translateY(-60%);
+    }
+
+    .contact-me {
+        text-align:center;
     }
 
     img {
@@ -81,6 +86,41 @@ const MainTitle = () => {
                 <img src={require('../images/tdavison.png')} alt="tdavison"/>
                 <h1>Davison Tomás</h1>
                 <h3>Software Engineer</h3>
+                <div className="contact-me">
+                    <IconButton
+                        onClick={() => window.open('https://twitter.com/tomydavison')}
+                    >
+                        <Twitter 
+                            style=
+                            {{ 
+                                fontSize: 40, 
+                                color: "white" 
+                            }}
+                        />
+                    </IconButton>
+                    <IconButton
+                        onClick={() => window.open('https://www.linkedin.com/in/tom%C3%A1s-guido-davison-970876185/')}
+                    >
+                        <LinkedIn
+                            style=
+                            {{ 
+                                fontSize: 40, 
+                                color: "white" 
+                            }}
+                        />
+                    </IconButton>
+                    <IconButton
+                        onClick={() => window.open('https://github.com/tomasdavison')}
+                    >
+                        <GitHub
+                            style=
+                            {{ 
+                                fontSize: 40, 
+                                color: "white" 
+                            }}
+                        />
+                    </IconButton>
+                </div>
             </div>
         </MainContainer>
     )
