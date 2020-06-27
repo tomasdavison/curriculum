@@ -17,18 +17,6 @@ const StyledBurger = styled.div`
         flex-flow: column nowrap;
     }
 
-    @media only screen 
-    and (min-device-width: 768px) 
-    and (max-device-width: 1024px) 
-    and (-webkit-min-device-pixel-ratio: 1.5)
-    and (orientation:portrait){
-        display: flex;
-        justify-content: space-around;
-        flex-flow: column nowrap;
-        top: 25%;
-        left: 90%;
-    }
-
     div {
         width: 2rem;
         height: 0.25rem; 

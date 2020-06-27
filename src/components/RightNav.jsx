@@ -6,8 +6,10 @@ const Ul = styled.ul`
     display: flex;
     flex-flow: row nowrap;
     position: relative;
+    height: 30px;
     top: 30px;
-    left: 75%;
+    margin-left: auto;
+    margin-right: 0px;
 
     li {
         font-family: Cabin, "Open Sans", sans-serif;
@@ -46,6 +48,7 @@ const Ul = styled.ul`
         position: fixed;
         top: 10px;
         left: 10px;
+        height: auto;
         padding-bottom: 20px;
         padding-top: 20px;
         width: 100%;
@@ -79,14 +82,6 @@ const Ul = styled.ul`
                 width: 0px;
             }
         }
-    }
-
-    @media only screen 
-    and (min-width: 1024px) 
-    and (max-height: 1366px)
-    and (-webkit-min-device-pixel-ratio: 1.5){
-        top: 30px;
-        left: 54%;
     }
 `;
 
