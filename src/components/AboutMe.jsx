@@ -1,17 +1,10 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-const Title = styled.h1`
-    font-family: Cabin, "Open Sans", sans-serif;
-    font-size: 35px;
-    font-weight: normal;
+const Container = styled.div`
     margin-left: 20px;
-    color: black;
-    border-bottom: 3px solid red;
-    display: inline-block;
-    line-height: 0.85;
     animation: 2.5s ease-out 0s 1 opacityMax;
-   
+
     @keyframes opacityMax {
         0% {
             transform: translateX(-50%);
@@ -23,14 +16,43 @@ const Title = styled.h1`
     }
 `;
 
+const Title = styled.h1`
+    font-family: Cabin, "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: black;
+    border-bottom: 3px solid red;
+    display: inline-block;
+    line-height: 0.85;
+    
+`;
+
+const AboutMeDescription = styled.p`
+    font-family: Cabin, "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    color: black;
+
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+            
+`;
 
 const AboutMe = () => {
 
     return (
-        <div>
+        <Container>
             <Title>About Me</Title>
-            
-        </div>
+            <AboutMeDescription>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</AboutMeDescription>
+        </Container>
     );
 }
 
