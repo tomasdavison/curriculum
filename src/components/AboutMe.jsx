@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 const Container = styled.div`
     margin-left: 20px;
     animation: 2.5s ease-out 0s 1 opacityMax;
+    max-width: 1300px;
 
     @keyframes opacityMax {
         0% {
@@ -21,10 +22,9 @@ const Title = styled.h1`
     font-size: 35px;
     font-weight: normal;
     color: black;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #FF9300;
     display: inline-block;
     line-height: 0.85;
-    
 `;
 
 const AboutMeDescription = styled.p`
