@@ -16,8 +16,17 @@ const HeaderContainer = styled.div`
 `;
 
 const BodyContainer = styled.div`
-  position:relative;
-  top:-150px;
+  position: relative;
+  border: 1px solid red;
+  height: auto;
+  top: -200px;
+
+  @media only screen 
+  and (orientation: portrait)
+  and (max-width: 1024px )
+  and (min-width: 768px){
+    top: -350px;
+  }
 `;
 
 const FootContainer = styled.div`
