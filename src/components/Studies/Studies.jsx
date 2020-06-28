@@ -53,9 +53,9 @@ const Studies = () => {
                                     onClick={() => window.open('http://www.institutovocacional.org.ar/')}                            
                                 >
                                     <CardMedia
-                                    className={classes.media}
-                                    image={require('../../images/ivalogo.png')}
-                                    title="Contemplative Reptile"
+                                        className={classes.media}
+                                        image={require('../../images/ivalogo.png')}
+                                        title="Instituto Vocacional Argentino"
                                     />
                                     <CardContent
                                         className={classes.content}
@@ -81,9 +81,9 @@ const Studies = () => {
                                         onClick={() => window.open('https://www.frba.utn.edu.ar/wp-content/uploads/2019/09/plan95a.pdf')}                            
                                     >
                                         <CardMedia
-                                        className={classes.media}
-                                        image={require('../../images/utnbalogo.png')}
-                                        title="Contemplative Reptile"
+                                            className={classes.media}
+                                            image={require('../../images/utnbalogo.png')}
+                                            title="Universidad Tecnológica Nacional"
                                         />
                                         <CardContent
                                             className={classes.content}
@@ -109,9 +109,9 @@ const Studies = () => {
                                         onClick={() => window.open('http://www.sistemas.frba.utn.edu.ar/index.php/academico/plan-k08')}                            
                                     >
                                         <CardMedia
-                                        className={classes.media}
-                                        image={require('../../images/utnbalogo.png')}
-                                        title="Contemplative Reptile"
+                                            className={classes.media}
+                                            image={require('../../images/utnbalogo.png')}
+                                            title="Universidad Tecnológica Nacional"
                                         />
                                         <CardContent
                                             className={classes.content}
