@@ -3,18 +3,6 @@ import styled from '@emotion/styled';
 
 const Container = styled.div`
     margin-left: 20px;
-    animation: 2.5s ease-out 0s 1 opacityMax;
-    max-width: 1300px;
-
-    @keyframes opacityMax {
-        0% {
-            transform: translateX(-50%);
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
 `;
 
 const Title = styled.h1`
@@ -25,6 +13,18 @@ const Title = styled.h1`
     border-bottom: 3px solid #FF9300;
     display: inline-block;
     line-height: 0.85;
+
+    animation: 2.5s ease-out 0s 1 opacityMaxSlideIn;
+
+    @keyframes opacityMaxSlideIn {
+        0% {
+            transform: translateX(-50%);
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 `;
 
 const AboutMeDescription = styled.p`
@@ -35,6 +35,7 @@ const AboutMeDescription = styled.p`
     margin-right: 20px;
     text-align: justify;
     color: black;
+    max-width: 1300px;
 
     -ms-word-break: break-all;
     word-break: break-all;
@@ -44,6 +45,16 @@ const AboutMeDescription = styled.p`
         -ms-hyphens: auto;
             hyphens: auto;
             
+    animation: 2.5s ease-out 0s 1 opacityMax;
+
+    @keyframes opacityMax {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 `;
 
 const AboutMe = () => {
