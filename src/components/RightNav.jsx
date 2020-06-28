@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { Link } from 'react-scroll';
 
 const Ul = styled.ul`
     list-style: none;
@@ -11,7 +12,7 @@ const Ul = styled.ul`
     margin-left: auto;
     margin-right: 0px;
 
-    li {
+    div {
         font-family: Cabin, "Open Sans", sans-serif;
         font-size: 21px;
         font-weight: normal;
@@ -65,7 +66,7 @@ const Ul = styled.ul`
             }
         }
 
-        li {
+        div {
             color: white;
             text-align:center;
 
@@ -85,15 +86,23 @@ const Ul = styled.ul`
     }
 `;
 
-const RightNav = ({open}) => {
+const RightNav = ({open, setOpen}) => {
     return (
         <Ul
             open={open}
         >
-            <li href="#">About Me</li>
-            <li href="#">Studies</li>
-            <li href="#">Tecnologies</li>
-            <li href="#">Experience</li>
+            <div>
+                <Link to="about-me" smooth={true} onClick={() => setOpen(false)}>About Me</Link>
+            </div>
+            <div>
+                <Link to="#">Studies</Link>
+            </div>
+            <div>
+                <Link to="#">Technologies</Link>
+            </div>
+            <div>
+                <Link to="#">Experience</Link>
+            </div>
         </Ul> 
     )
 }

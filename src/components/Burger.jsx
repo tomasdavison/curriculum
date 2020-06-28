@@ -55,6 +55,7 @@ const Burger = () => {
             </StyledBurger>
             <RightNav 
                 open={open}
+                setOpen={setOpen}
             />
         </>
     )

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { Twitter, LinkedIn, GitHub} from '@material-ui/icons';
+import { LinkedIn, GitHub, Mail} from '@material-ui/icons';
 import { IconButton } from '@material-ui/core';
 
 const MainContainer = styled.div`
@@ -88,9 +88,9 @@ const MainTitle = () => {
                 <h3>Software Engineer</h3>
                 <div className="contact-me">
                     <IconButton
-                        onClick={() => window.open('https://twitter.com/tomydavison')}
+                        onClick={() => window.open('mailto:toomi.davison@gmail.com')}
                     >
-                        <Twitter 
+                        <Mail 
                             style=
                             {{ 
                                 fontSize: 40, 
