@@ -95,7 +95,7 @@ const RightNav = ({open, setOpen}) => {
                 <Link to="about-me" smooth={true} onClick={() => setOpen(false)}>About Me</Link>
             </div>
             <div>
-                <Link to="#">Studies</Link>
+            <Link to="studies" smooth={true} onClick={() => setOpen(false)}>Studies</Link>
             </div>
             <div>
                 <Link to="#">Technologies</Link>

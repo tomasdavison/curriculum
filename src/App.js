@@ -3,9 +3,10 @@ import styled from '@emotion/styled';
 
 import TopBackground from './images/top_background.png'
 
-import NavBar from './components/NavBar';
-import MainTitle from './components/MainTitle'
-import AboutMe from './components/AboutMe'
+import NavBar from './components/Header/NavBar';
+import MainTitle from './components/Header/MainTitle'
+import AboutMe from './components/AboutMe/AboutMe'
+import Studies from './components/Studies/Studies'
 
 const HeaderContainer = styled.div`
   position: relative;
@@ -41,19 +42,9 @@ function App() {
       </HeaderContainer>
       <BodyContainer>
         <AboutMe/>
+        <Studies/>
       </BodyContainer>
       <FootContainer>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
       </FootContainer>
     </Fragment>
   );

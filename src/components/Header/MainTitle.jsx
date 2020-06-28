@@ -83,7 +83,7 @@ const MainTitle = () => {
     return (
         <MainContainer>
             <div className="header-container">
-                <img src={require('../images/tdavison.png')} alt="tdavison"/>
+                <img src={require('../../images/tdavison.png')} alt="tdavison"/>
                 <h1>Davison Tomás</h1>
                 <h3>Software Engineer</h3>
                 <div className="contact-me">
