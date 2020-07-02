@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Grid } from '@material-ui/core';
 
 const CardContainer = styled.div`
     width:100%;
@@ -12,6 +11,7 @@ const CardContainer = styled.div`
     display: grid;
     text-align: center;
     overflow: hidden;
+    font-family: Cabin, "Open Sans", sans-serif;
 
     &:hover{
         transform: scale(1.1);
@@ -21,7 +21,6 @@ const CardContainer = styled.div`
     
     @media only screen 
     and (max-width: 768px) {
-        width: 300px;
         height: 400px;
     }
 `;
@@ -42,20 +41,29 @@ const Image = styled.img`
 `;
 
 const Title = styled.h3`
+    position: relative;
+    bottom: 10px;
 
+    @media only screen 
+    and (max-width: 768px) {
+        bottom: 30px;
+    }
 `;
 
 const Text = styled.p`
-
+    text-align: center;
+    color: black;
+    max-width: 90%;
+    margin: auto;
 `;
 
-const Card = ({image, alternativeText}) => {
+const Card = ({image, alternativeText, title, text}) => {
 
     return (
         <CardContainer>
             <Image src={image} alt={alternativeText}/>
-            <Title>I'm a title</Title>
-            <Text>I'm a text</Text>
+            <Title>{title}</Title>
+            <Text>{text}</Text>
         </CardContainer>
     )
 }

@@ -23,8 +23,10 @@ const Studies = () => {
                 <Grid container spacing={5}>
                     <Grid item xs={12} sm={4}>
                         <Card
-                            image={require('../../images/tdavison.png')}
-                            alternativeText={'Hola'}
+                            image={require('../../images/ivalogo.png')}
+                            alternativeText={'IVA'}
+                            title={'BACHILLER (SECUNDARIO)'}
+                            text={'INSTITUTO VOCACIONAL ARGENTINO'}
                         />
                     </Grid>
                     <Grid item xs={12} sm={4}>
