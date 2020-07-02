@@ -27,18 +27,28 @@ const Studies = () => {
                             alternativeText={'IVA'}
                             title={'BACHILLER (SECUNDARIO)'}
                             text={'INSTITUTO VOCACIONAL ARGENTINO'}
+                            since={2009}
+                            until={2014}
                         />
                     </Grid>
                     <Grid item xs={12} sm={4}>
                         <Card
-                            image={'image'}
-                            alternativeText={'Hola'}
+                            image={require('../../images/utnbalogo.png')}
+                            alternativeText={'UTN'}
+                            title={'INGENIERÍA ELECTRÓNICA'}
+                            text={'UNIVERSIDAD TECNOLÓGICA NACIONAL'}
+                            since={2015}
+                            until={2019}
                         />
                     </Grid>
                     <Grid item xs={12} sm={4}>
                         <Card
-                            image={'image'}
-                            alternativeText={'Hola'}
+                            image={require('../../images/utnbalogo.png')}
+                            alternativeText={'UTN'}
+                            title={'INGENIERÍA EN SISTEMAS'}
+                            text={'UNIVERSIDAD TECNOLÓGICA NACIONAL'}
+                            since={2020}
+                            until={2020}
                         />
                     </Grid>
                 </Grid>

@@ -57,13 +57,32 @@ const Text = styled.p`
     margin: auto;
 `;
 
-const Card = ({image, alternativeText, title, text}) => {
+const TextContainer = styled.div`
+    display: inline-block;
+`;
+
+const DateText = styled.p`
+    display: inline;
+    font-family:'Roboto', sans-serif;
+    margin-right: 5px;
+    margin-left: 10px;
+`;
+
+const TextSinceOrUntil = styled.p`
+    display: inline;
+`;
+
+const Card = ({image, alternativeText, title, text, since, until}) => {
 
     return (
         <CardContainer>
             <Image src={image} alt={alternativeText}/>
             <Title>{title}</Title>
             <Text>{text}</Text>
+            <TextContainer>
+                <DateText>SINCE:</DateText><TextSinceOrUntil>{since}</TextSinceOrUntil>
+                <DateText>UNTIL:</DateText><TextSinceOrUntil>{until}</TextSinceOrUntil>
+            </TextContainer>
         </CardContainer>
     )
 }
