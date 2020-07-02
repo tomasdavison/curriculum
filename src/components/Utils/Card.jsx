@@ -7,6 +7,7 @@ const CardContainer = styled.div`
     border-radius: 15px;
     background: rgb(168,168,168);
     background: linear-gradient(335deg, rgba(168,168,168,1) 0%, rgba(217,217,217,1) 53%, rgba(236,236,236,1) 100%);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
     transition: 0.5s ease;
     display: grid;
     text-align: center;
