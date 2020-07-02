@@ -69,6 +69,7 @@ const Ul = styled.ul`
         div {
             color: white;
             text-align:center;
+            font-size: 17px;
 
             &:hover {
                 cursor: pointer;
